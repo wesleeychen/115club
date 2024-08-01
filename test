@@ -1,1 +1,803 @@
-<iframe src="https://forms.monday.com/forms/embed/9e738524f42bdb319583e4a814258485?r=use1" width="650" height="500" style="border: 0; box-shadow: 5px 5px 56px 0px rgba(0,0,0,0.25);"></iframe>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" ng-app="pulse" style="height: 100%">
+    <head>
+        <meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+        <meta property="og:image" content="https://dapulse-res.cloudinary.com/image/upload/v1645260315/monday-forms/Frame_1261156053.png"/>
+        <meta property="og:title" content="115 Club"/>
+        <meta property="og:description" content=""/>
+        <meta property="og:url" content="https://forms.monday.com/forms/embed/9e738524f42bdb319583e4a814258485?r=use1"/>
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:title" content="115 Club">
+        <meta name="twitter:description" content="">
+        <meta name="twitter:image" content="https://dapulse-res.cloudinary.com/image/upload/v1645260316/monday-forms/Frame_1261156052.png"/>
+        <title>115 Club</title>
+        <link rel="icon" type="image/png" href="https://cdn.monday.com/images/products/forms-favicon.png"/>
+        <style>
+            .formTheme {
+                --primary-color: var(--color-sofia_pink-hover) !important;
+                --primary-selected-color: #ffe8eb !important;
+                --primary-hover-color: #94054d !important;
+            }
+        </style>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Kufi+Arabic:wght@300;400;500&family=Noto+Sans+JP:wght@300;400;500;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&family=Noto+Sans+Hebrew:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+        <style>
+            body#main.new_platform_color.light-app-theme, body#main.new_platform_color.default-app-theme {
+                --primary-color: #0042EA;
+                --primary-hover-color: #0037C1;
+                --primary-selected-color: #E5ECFF;
+                --primary-selected-hover-color: #B7CCFF;
+                --primary-highlighted-color: #F0F4FF;
+            }
+
+            body#main.new_platform_color.dark-app-theme, body#main.new_platform_color.black-app-theme {
+                --primary-color: #0A4FFF;
+                --primary-hover-color: #0037C1;
+                --primary-selected-color: #4B4E69;
+                --primary-selected-hover-color: #37394D;
+                --primary-highlighted-color: #37394D;
+                --primary-background-hover-color: rgba(#676879, 0.3);
+            }
+
+            body#main.dialogs_stroke_on_dark_themes.dark-app-theme, body#main.dialogs_stroke_on_dark_themes.black-app-theme, body#main.dialogs_stroke_on_dark_themes.hacker_theme-app-theme {
+                --experimental-dialogs-stroke-on-dark-themes: 0 0 0 1px var(--layout-border-color);
+                --experimental-dialog-border-in-dark-themes: var(--experimental-dialogs-stroke-on-dark-themes);
+                --experimental-dropdown-border-in-dark-themes: var(--experimental-dialogs-stroke-on-dark-themes);
+            }
+        </style>
+        <script src="https://cdn.monday.com/assets/lib/jquery-1.11.2-39cc7e053fb2635f0759e107fe933746213d55b818b20d9b6b6a772bdcc87ea2.js"></script>
+        <link rel="stylesheet" media="screen" href="https://cdn.monday.com/assets/forms/index-c3f3e75b97bf3cc49b14bf7e5ac65d956c55a4b485653fa557c97c4abaf58178.css"/>
+        <style type="text/css">
+            @font-face {
+                font-family: 'FontAwesome';
+                font-weight: normal;
+                font-style: normal;
+            }
+        </style>
+        <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.1/css/font-awesome.min.css" media="screen" rel="stylesheet" type="text/css"/>
+        <script>
+            var base_path = function(root_dir, path) {
+                return ("https://cdn.monday.com/" + root_dir + "/" + path.replace(/^\//, ''));
+            };
+
+            window.form_data = {
+                "token": "9e738524f42bdb319583e4a814258485",
+                "included_columns": [{
+                    "id": "name",
+                    "title": "Name",
+                    "type": "name",
+                    "width": 400,
+                    "uat": 1722292474052
+                }, {
+                    "type": "email",
+                    "title": "Email",
+                    "id": "email__1",
+                    "created_by": 11408118,
+                    "uat": 1722298983058
+                }, {
+                    "type": "phone",
+                    "title": "Phone Number",
+                    "id": "phone__1",
+                    "created_by": 11408118,
+                    "uat": 1722300838886
+                }, {
+                    "type": "long-text",
+                    "title": "Address",
+                    "id": "long_text0__1",
+                    "created_by": 11408118,
+                    "uat": 1722299245274
+                }, {
+                    "type": "date",
+                    "title": "TV Purchase Date",
+                    "id": "date4",
+                    "uat": 1722298859680
+                }, {
+                    "type": "dropdown",
+                    "title": "Model #",
+                    "settings": {
+                        "limit_select": false,
+                        "hide_footer": false,
+                        "labels": [{
+                            "id": 1,
+                            "name": "115QM891G"
+                        }, {
+                            "id": 2,
+                            "name": "Other"
+                        }],
+                        "deactivated_labels": []
+                    },
+                    "id": "dropdown__1",
+                    "created_by": 11408118,
+                    "uat": 1722300955806
+                }, {
+                    "title": "Serial Number",
+                    "type": "text",
+                    "id": "serial_number__1",
+                    "created_by": 11408118,
+                    "uat": 1722384795440
+                }, {
+                    "type": "file",
+                    "title": "Reciept",
+                    "settings": {
+                        "hide_footer": false
+                    },
+                    "id": "files__1",
+                    "created_by": 11408118,
+                    "uat": 1722299072966
+                }, {
+                    "type": "dropdown",
+                    "title": "Experiences",
+                    "settings": {
+                        "limit_select": true,
+                        "hide_footer": false,
+                        "labels": [{
+                            "id": 1,
+                            "name": "Super Bowl LIX Experience"
+                        }, {
+                            "id": 2,
+                            "name": "TCL Chinese Theatre Movie Premiere"
+                        }, {
+                            "id": 3,
+                            "name": "Chargers Game at SoFi Stadium TCL Suite Experience"
+                        }, {
+                            "id": 4,
+                            "name": "Concert at SoFi Stadium TCL Suite Experience"
+                        }, {
+                            "id": 5,
+                            "name": "Call of Duty Studio Tour Experience"
+                        }, {
+                            "id": 6,
+                            "name": "TCL x CES Experience"
+                        }, {
+                            "id": 7,
+                            "name": "TCL Technology Package"
+                        }],
+                        "deactivated_labels": [],
+                        "label_limit_count": 2
+                    },
+                    "id": "dropdown3__1",
+                    "created_by": 11408118,
+                    "uat": 1722461918595,
+                    "width": 540
+                }, {
+                    "title": "Preferred Experience",
+                    "type": "long-text",
+                    "id": "long_text6__1",
+                    "created_by": 11408118,
+                    "uat": 1722461610505
+                }, {
+                    "title": "Concert Option",
+                    "type": "color",
+                    "labels": {
+                        "0": "Green Day - Saturday, September 14th @ 6pm",
+                        "1": "Def Leoppard, Journey, Steve Miller Band - Sunday, August 25th @ 6pm",
+                        "2": "Please notify me when other concerts become available"
+                    },
+                    "id": "single_select5__1",
+                    "created_by": 11408118,
+                    "uat": 1722462287311,
+                    "labels_positions_v2": {
+                        "0": 2,
+                        "1": 1,
+                        "2": 3,
+                        "3": 4,
+                        "4": 6,
+                        "5": 22,
+                        "6": 8,
+                        "7": 5,
+                        "8": 9,
+                        "9": 10,
+                        "10": 11,
+                        "11": 13,
+                        "12": 14,
+                        "13": 15,
+                        "14": 16,
+                        "15": 17,
+                        "16": 18,
+                        "17": 19,
+                        "18": 20,
+                        "19": 21,
+                        "101": 100,
+                        "102": 200,
+                        "103": 300,
+                        "104": 400,
+                        "105": 500,
+                        "106": 600,
+                        "107": 800,
+                        "108": 900,
+                        "109": 1000,
+                        "110": 1100,
+                        "151": 2100,
+                        "152": 2200,
+                        "153": 2300,
+                        "154": 2400,
+                        "155": 2500,
+                        "156": 2600,
+                        "157": 2700,
+                        "158": 2800,
+                        "159": 2900,
+                        "160": 3000
+                    }
+                }, {
+                    "title": "Ganme Option",
+                    "type": "color",
+                    "labels": {
+                        "0": "Chargers vs. Saints - Sunday, October 27th at 1:05pm",
+                        "1": "Chargers vs. Raiders - Sunday, September 8th at 1:05pm",
+                        "2": "Chargers vs. Titans - Sunday, November 10th at 1:05pm",
+                        "3": "Chargers vs. Bangels - Sunday, November 17th at 1:25pm",
+                        "4": "Please notify me about availability of other games.",
+                        "7": "Chargers vs. Buccaneers - Sunday, December 15th at 1:25pm"
+                    },
+                    "id": "single_select__1",
+                    "created_by": 11408118,
+                    "uat": 1722462295808,
+                    "labels_positions_v2": {
+                        "0": 2,
+                        "1": 1,
+                        "2": 3,
+                        "3": 3001,
+                        "4": 3003,
+                        "5": 22,
+                        "6": 8,
+                        "7": 3002,
+                        "8": 9,
+                        "9": 10,
+                        "10": 11,
+                        "11": 13,
+                        "12": 14,
+                        "13": 15,
+                        "14": 16,
+                        "15": 17,
+                        "16": 18,
+                        "17": 19,
+                        "18": 20,
+                        "19": 21,
+                        "101": 100,
+                        "102": 200,
+                        "103": 300,
+                        "104": 400,
+                        "105": 500,
+                        "106": 600,
+                        "107": 800,
+                        "108": 900,
+                        "109": 1000,
+                        "110": 1100,
+                        "151": 2100,
+                        "152": 2200,
+                        "153": 2300,
+                        "154": 2400,
+                        "155": 2500,
+                        "156": 2600,
+                        "157": 2700,
+                        "158": 2800,
+                        "159": 2900,
+                        "160": 3000
+                    }
+                }],
+                "board_view_settings": {
+                    "columns": {
+                        "name": {
+                            "visible": true,
+                            "question": "First and Last Name",
+                            "type": "name",
+                            "description": "Please submit your first and last name.",
+                            "mandatory": true
+                        },
+                        "email__1": {
+                            "visible": true,
+                            "question": "Email",
+                            "type": "email",
+                            "description": "Please provide your email. ",
+                            "mandatory": true
+                        },
+                        "phone__1": {
+                            "visible": true,
+                            "question": "Phone Number ",
+                            "type": "phone",
+                            "description": "Please provide your phone number. ",
+                            "mandatory": true
+                        },
+                        "long_text0__1": {
+                            "visible": true,
+                            "question": "Address",
+                            "type": "long-text",
+                            "description": "Please include your address. (Street, City, State, Zip)",
+                            "mandatory": true
+                        },
+                        "date4": {
+                            "visible": true,
+                            "question": "TV Purchase Date",
+                            "type": "date",
+                            "description": "Please enter the date of your TV purchase.",
+                            "is_default_current_date": false,
+                            "mandatory": true
+                        },
+                        "long_text__1": {
+                            "visible": true,
+                            "question": "Serial Number",
+                            "type": "long-text",
+                            "description": "Please provide the Serial Number of your TV.  \n\nPlease Note** The serial number is located on the back panel of the TV or on the side of the original TV box.",
+                            "mandatory": true
+                        },
+                        "files__1": {
+                            "visible": true,
+                            "question": "Reciept",
+                            "type": "file",
+                            "description": "Please submit your reciept for proof of purchase.",
+                            "mandatory": true
+                        },
+                        "status": {
+                            "visible": false,
+                            "question": "Registration Status",
+                            "type": "color"
+                        },
+                        "status__1": {
+                            "visible": false,
+                            "question": "Warranty Period",
+                            "type": "color"
+                        },
+                        "status1__1": {
+                            "visible": false,
+                            "question": "Reservation Status",
+                            "type": "color"
+                        },
+                        "checkbox__1": {
+                            "visible": false,
+                            "question": "Checkbox",
+                            "type": "boolean"
+                        },
+                        "pulse__update": {
+                            "visible": false,
+                            "question": "Update"
+                        },
+                        "dropdown__1": {
+                            "description": "What is the Model # of your TV?",
+                            "visible": true,
+                            "question": "Model #",
+                            "type": "dropdown",
+                            "labelsPositions": {
+                                "1": 0,
+                                "2": 1
+                            },
+                            "mandatory": true
+                        },
+                        "dropdown3__1": {
+                            "visible": true,
+                            "question": "Choose Your Experience",
+                            "type": "dropdown",
+                            "description": "Please select your first and second choices from the below available Club 115 Experience Packages.\n\nTCL’s 115” Experience More Promotion features the following options:\n●\tSuper Bowl LIX -(1) ticket to Super Bowl LIX, plus unique experiences with other 115 Club members in New Orleans, LA\n●\tMovie Premiere - airfare and hotel stay for 115 Club member and guest to attend a movie premiere at TCL Chinese Theatre in Hollywood, CA. \n●\tChargers Game - airfare and hotel stay for 115 Club member and guest to watch the Los Angeles Chargers play from TCL’s suite at SoFi Stadium in Inglewood, CA.\n●\tConcert - airfare and hotel stay for 115 Club member and guest to watch a concert from TCL’s suite at SoFi Stadium in Inglewood, CA.\n●\tCall of Duty Studio Tour - airfare and hotel stay for 115 Club member and guest to get a behind the scenes studio tour from the team behind Call of Duty’s latest game in Los Angeles, CA.\n●\tConsumer Electronics Show – passes for 115 Club member and guest to attend CES, with access to TCL’s CES party and special sessions in the TCL booth with VIPs and celebrities in Las Vegas, NV (January 2025) \n",
+                            "conditionalRules": ["e97ef6ec-61cc-e717-5401-6fb90ec69276", "779aefa7-218b-5064-b5ff-e1c7401c89a8"],
+                            "question_include_conditional": true,
+                            "mandatory": true,
+                            "display": "vertical"
+                        },
+                        "dropdown0__1": {
+                            "visible": false,
+                            "question": "Alternative Experience",
+                            "type": "dropdown",
+                            "conditionalRules": ["ec09d24c-faf5-920c-5051-868d25198f1f", "98aa0ebd-d10d-918f-f861-c963733f94b4"],
+                            "question_include_conditional": false,
+                            "mandatory": false,
+                            "display": "vertical",
+                            "description": "Please select a backup experience if your first choice is not available."
+                        },
+                        "single_select__1": {
+                            "visible": true,
+                            "type": "color",
+                            "question": "Please choose one of the below. ",
+                            "parentConditionalRuleId": "e97ef6ec-61cc-e717-5401-6fb90ec69276",
+                            "description": "Please choose from one of the below available Chargers games for the 2024 season at SoFi Stadium.",
+                            "mandatory": true
+                        },
+                        "single_select5__1": {
+                            "visible": true,
+                            "type": "color",
+                            "question": "Please choose one of the below.",
+                            "parentConditionalRuleId": "779aefa7-218b-5064-b5ff-e1c7401c89a8",
+                            "mandatory": true,
+                            "description": "Please choose from one of the below available Concerts for the 2024 season at Sofi Stadium. "
+                        },
+                        "single_select6__1": {
+                            "visible": true,
+                            "type": "color",
+                            "question": "Single select"
+                        },
+                        "single_select7__1": {
+                            "visible": true,
+                            "type": "color",
+                            "question": "Please choose one of the below.",
+                            "parentConditionalRuleId": "ec09d24c-faf5-920c-5051-868d25198f1f",
+                            "description": "Please choose from one of the below available Chargers games for the 2024 season at SoFi Stadium.",
+                            "mandatory": true
+                        },
+                        "single_select3__1": {
+                            "visible": true,
+                            "type": "color",
+                            "question": "Please choose one of the below. ",
+                            "parentConditionalRuleId": "98aa0ebd-d10d-918f-f861-c963733f94b4",
+                            "description": "Please choose from one of the below available Concerts for the 2024 season at Sofi Stadium. ",
+                            "mandatory": true
+                        },
+                        "long_text1__1": {
+                            "visible": true,
+                            "type": "long-text",
+                            "question": "Long text",
+                            "parentConditionalRuleId": "d1de32db-e090-4b60-646b-47edd4546f32"
+                        },
+                        "short_text__1": {
+                            "visible": true,
+                            "type": "text",
+                            "question": "Short text",
+                            "parentConditionalRuleId": "d1de32db-e090-4b60-646b-47edd4546f32"
+                        },
+                        "true___false__1": {
+                            "visible": true,
+                            "type": "boolean",
+                            "question": "True / False",
+                            "parentConditionalRuleId": "37bdfba0-7018-1ec2-5962-fe3d7d9b7ca9",
+                            "description": "jfglk"
+                        },
+                        "true___false4__1": {
+                            "visible": true,
+                            "type": "boolean",
+                            "question": "True / False",
+                            "parentConditionalRuleId": "cbb82a02-d4c5-d1b8-b4d0-5b576d689e1a",
+                            "description": "We will notify you of the upcoming premieres at TCL Chinese "
+                        },
+                        "long_text6__1": {
+                            "visible": true,
+                            "type": "long-text",
+                            "question": "Preferred Experience",
+                            "description": "Please indicate your FIRST CHOICE. In the event this option is not available, your second choice will be selected.",
+                            "mandatory": true
+                        },
+                        "serial_number__1": {
+                            "visible": true,
+                            "question": "Serial Number",
+                            "type": "text",
+                            "mandatory": true
+                        }
+                    },
+                    "formTitle": "115 Club",
+                    "show_name_question": true,
+                    "createdBy": 11408118,
+                    "formDirection": "ltr",
+                    "tempFormFont": "Poppins",
+                    "formFont": "Poppins",
+                    "formDescription": "",
+                    "sortedQuestionsList": ["name", "email__1", "phone__1", "long_text0__1", "date4", "dropdown__1", "serial_number__1", "files__1", "dropdown3__1", "single_select__1", "single_select5__1", "long_text6__1", "status", "status__1", "status1__1", "checkbox__1", "pulse__update"],
+                    "conditionalRules": {
+                        "e97ef6ec-61cc-e717-5401-6fb90ec69276": {
+                            "ruleQuestionId": "dropdown3__1",
+                            "ruleQuestionType": "dropdown",
+                            "value": [[3]]
+                        },
+                        "779aefa7-218b-5064-b5ff-e1c7401c89a8": {
+                            "ruleQuestionId": "dropdown3__1",
+                            "ruleQuestionType": "dropdown",
+                            "value": [[4]]
+                        },
+                        "ec09d24c-faf5-920c-5051-868d25198f1f": {
+                            "ruleQuestionId": "dropdown0__1",
+                            "ruleQuestionType": "dropdown",
+                            "value": [[3]]
+                        },
+                        "98aa0ebd-d10d-918f-f861-c963733f94b4": {
+                            "ruleQuestionId": "dropdown0__1",
+                            "ruleQuestionType": "dropdown",
+                            "value": [[4]]
+                        }
+                    },
+                    "showWelcomeView": true,
+                    "welcomeViewTitle": "TCL 115 Club",
+                    "welcomeViewDescription": "",
+                    "welcomeViewButton": "Experience More",
+                    "hideMondayLogo": true,
+                    "passwordProtection": false,
+                    "success_content": "Your form was submitted sucessfully. Once verified you will be sent a confirmation email. from club115@tcl.com.",
+                    "success_title": "",
+                    "backgroundImage": "https://res.cloudinary.com/monday-platform/image/upload/v1722452665/board_views_images/logos/1722452663605_0d6ff6d4-c224-dbb8-f99f-a4818deeb326.jpg",
+                    "activeBackgroundType": "image",
+                    "userUploadedBackgroundImage": "https://res.cloudinary.com/monday-platform/image/upload/v1722452665/board_views_images/logos/1722452663605_0d6ff6d4-c224-dbb8-f99f-a4818deeb326.jpg",
+                    "formLogoPath": "https://res.cloudinary.com/monday-platform/image/upload/v1722452608/board_views_images/logos/1722452608411_7f8b616e-f1cc-0737-5c9d-c9b519728d4c.png",
+                    "userUploadedLogo": true,
+                    "hideSuccessImage": true
+                },
+                "board_view_id": 109079888,
+                "region": "use1",
+                "features": {
+                    "form_storybook_recording": true,
+                    "edit_form_with_mf": true,
+                    "form_signature": true,
+                    "increased_forms_file_upload": false,
+                    "forced_fields": false,
+                    "workforms_report_form": true,
+                    "workforms_form_viewer_mf": false,
+                    "workforms_text_field": true,
+                    "workforms_save_midway_submission": true,
+                    "workforms_connected_boards_column": false,
+                    "workforms_new_status_form_input": true,
+                    "workforms_create_pulse_from_connected_board_question": true,
+                    "workforms_welcome_view": true,
+                    "workforms_new_multi_select_form_input": true,
+                    "workforms_password_protection": true,
+                    "workforms_date_with_timezone_offset": true,
+                    "workforms_edit_after_submission": false,
+                    "workforms_duplicate_question": true,
+                    "workforms_mf_after_submission": true,
+                    "workforms_send_message_to_parent_on_success": false,
+                    "workforms_form_render_logic_mf": true,
+                    "workforms_draft_submission": true,
+                    "workforms_multi_select_limit_count": true,
+                    "workforms_new_hidden_states_ui": false,
+                    "workforms_granular_permissions": false,
+                    "form_builder": true,
+                    "form_conditional": true,
+                    "show_meet_workforms_modal": true
+                },
+                "form_tracking_supported": false,
+                "tracking_valid_item": false,
+                "form_tracking_status": null,
+                "isf": false,
+                "request_url": null,
+                "item_id": null
+            };
+            window.Pulse = {
+                isInFormView: true,
+                locale: "en",
+                current_region: "use1",
+                image_path: function(path) {
+                    return base_path("images", path)
+                },
+                browser: {
+                    "is_supported": true,
+                    "data": {
+                        "name": "chrome",
+                        "version": "127"
+                    },
+                    "platform_name": "Windows",
+                    "browser_description": "Chrome - 127 (supported)"
+                },
+                layout: "user-form",
+                // the actual form that users interact with
+                features: {
+                    "form_storybook_recording": true,
+                    "edit_form_with_mf": true,
+                    "form_signature": true,
+                    "increased_forms_file_upload": false,
+                    "forced_fields": false,
+                    "workforms_report_form": true,
+                    "workforms_form_viewer_mf": false,
+                    "workforms_text_field": true,
+                    "workforms_save_midway_submission": true,
+                    "workforms_connected_boards_column": false,
+                    "workforms_new_status_form_input": true,
+                    "workforms_create_pulse_from_connected_board_question": true,
+                    "workforms_welcome_view": true,
+                    "workforms_new_multi_select_form_input": true,
+                    "workforms_password_protection": true,
+                    "workforms_date_with_timezone_offset": true,
+                    "workforms_edit_after_submission": false,
+                    "workforms_duplicate_question": true,
+                    "workforms_mf_after_submission": true,
+                    "workforms_send_message_to_parent_on_success": false,
+                    "workforms_form_render_logic_mf": true,
+                    "workforms_draft_submission": true,
+                    "workforms_multi_select_limit_count": true,
+                    "workforms_new_hidden_states_ui": false,
+                    "workforms_granular_permissions": false,
+                    "form_builder": true,
+                    "form_conditional": true,
+                    "show_meet_workforms_modal": true
+                },
+                isf: false,
+                custom: {
+                    form_forced_fields: {},
+                    show_report_link: false
+                },
+                form_system_flags: {
+                    "recaptcha": true
+                },
+                is_workforms: true,
+                Globals: {
+                    protocol: 'https',
+                    domain: 'monday.com'
+                }
+            }
+            window.Pulse.Apps = {}
+            window.startedAt = new Date().getTime();
+            window.Pulse.recaptchaSiteKey = "6Leb9d0aAAAAAHJoQhpXiopyYuaSdXArxRToyn0p";
+            var getDomainFromParent = function(event) {
+                var httpIndex = event.origin.search("//");
+                var eventurl = event.origin;
+                if (httpIndex > -1) {
+                    var eventurl = eventurl.slice(httpIndex + 2);
+                }
+
+                var originArr = eventurl.split(".");
+                if (originArr.length > 2) {
+                    originArr.shift();
+                }
+                return originArr.join(".");
+            }
+
+            var isMondayDomain = function(domain) {
+                return domain == "monday.com";
+            }
+
+            window.addEventListener('message', function(event) {
+                var domain = getDomainFromParent(event);
+                if (isMondayDomain(domain) && event.data.formIframe) {
+                    window.Pulse.FormConsumerData = window.Pulse.FormConsumerData || {}
+                    window.Pulse.FormConsumerData.upgrade_feedback_data = event.data.formData
+                }
+            });
+
+            window.formBBData = {
+                board_id: 7118778110,
+                direct_object: "board_view",
+                direct_object_id: 109079888,
+                info2: "9e738524f42bdb319583e4a814258485",
+                info3: document.referrer
+            }
+
+            window.formBBData.source = "workforms"
+
+            window.formBBData.placement = "embedded"
+
+            window.microfrontends = window.microfrontends || {};
+            window.microfrontends.url = "https://microfrontends.monday.com";
+        </script>
+        <script type="text/javascript">
+            window.Pulse = window.Pulse || {};
+            window.Pulse.image_path = function(path) {
+                return base_path("images", path)
+            }
+            ;
+            window.Pulse.font_path = function(path) {
+                return base_path("fonts", path)
+            }
+            ;
+            window.Pulse.lib_path = function(path) {
+                return base_path("lib", path)
+            }
+            ;
+            window.Pulse.icon_path = function(path) {
+                return base_path("icons", path)
+            }
+            ;
+            window.Pulse.forms_icon_path = function(path) {
+                return base_path("forms_icons", path)
+            }
+            ;
+            window.Pulse.external_assets_path = function(path) {
+                return base_path("external_assets", path)
+            }
+            ;
+
+            var base_path = function(root_dir, path) {
+                return ("https://cdn.monday.com/" + root_dir + "/" + path.replace(/^\//, ''));
+            };
+        </script>
+        <link rel="stylesheet" media="all" href="https://cdn.monday.com/build/forms-ae191b35289759a5a663.css" crossorigin="anonymous"/>
+        <script>
+            // fire bigbrain event only after tracker is loaded
+            document.addEventListener("DOMContentLoaded", function(event) {
+                // gtm_bigbrain_uuid is initialized for GTM
+                window.gtm_bigbrain_uuid = '49e1cb95-648b-4ef9-8037-4c318fb81b0d'
+                var options = {
+                    kind: location.pathname,
+                    info1: window.gtm_bigbrain_uuid,
+                    info2: 'GTM-MT47MZK'
+                }
+                BigBrain('track', 'gtm_page_view', options);
+            });
+        </script>
+        <!-- Google Tag Manager -->
+        <script>
+            (function(w, d, s, l, i) {
+                w[l] = w[l] || [];
+                w[l].push({
+                    'gtm.start': new Date().getTime(),
+                    event: 'gtm.js'
+                });
+                var f = d.getElementsByTagName(s)[0]
+                  , j = d.createElement(s)
+                  , dl = l != 'dataLayer' ? '&l=' + l : '';
+                j.async = true;
+                j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+                f.parentNode.insertBefore(j, f);
+            }
+            )(window, document, 'script', 'dataLayer', 'GTM-MT47MZK');
+        </script>
+        <!-- End Google Tag Manager -->
+        <script src="https://cdn.monday.com/get_translations.js?locale=en&project=platform&timestamp=1722451197" type="text/javascript"></script>
+        <script src="https://cdn.monday.com/get_translations.js?locale=en&project=microfrontends&timestamp=1722434812" type="text/javascript"></script>
+    </head>
+    <body class='forms-layout global-brand-font'>
+        <!-- Google Tag Manager (noscript) -->
+        <noscript>
+            <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT47MZK" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+        </noscript>
+        <!-- End Google Tag Manager (noscript) -->
+        <script>
+            window.bundles_urls = window.bundles_urls || {};
+            window.bundles_urls["externals"] = "https://cdn.monday.com/build/externals-059e388a.js";
+        </script>
+        <script crossorigin src="https://cdn.monday.com/build/externals-059e388a.js" type="text/javascript"></script>
+        <script>
+            window.webpackPublicPath = "https://cdn.monday.com/build/";
+        </script>
+        <script>
+            window.VulcanInitData = {
+                isEmbeddedView: false,
+                shouldLoadCurrentUser: false,
+                microfrontendUrl: "https://microfrontends.monday.com",
+                features: {
+                    newSnapshot: false,
+                    vulcanMF: false,
+                    appUseContext: true,
+                },
+
+            };
+        </script>
+        <script>
+            window.bundles_urls = window.bundles_urls || {};
+            window.bundles_urls["babel_polyfill_and_helpers"] = "https://cdn.monday.com/build/babel_polyfill_and_helpers-e21c8937b120ae0a46ff.js";
+        </script>
+        <script crossorigin src="https://cdn.monday.com/build/babel_polyfill_and_helpers-e21c8937b120ae0a46ff.js" type="text/javascript"></script>
+        <script>
+            window.bigbrainScriptUrl = "https://informer-cdn.monday.com/monday-informer-1.0.min.js?v=1";
+            window.bigbrainInitOptions = window.bigbrainInitOptions || {
+                "pulse_account_id": 4403552
+            };
+            window.bigbrainTrackUrl = "https://track.bigbrain.me/prod";
+        </script>
+        <script>
+            window.bundles_urls = window.bundles_urls || {};
+            window.bundles_urls["bigbrain_tracker"] = "https://cdn.monday.com/build/bigbrain_tracker-adee143fc945f90b709e.js";
+        </script>
+        <script crossorigin src="https://cdn.monday.com/build/bigbrain_tracker-adee143fc945f90b709e.js" type="text/javascript"></script>
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCm-Z64r_MNAEWxytqTUpVVN_qKXcqSHUI&libraries=places"></script>
+        <style>
+            @font-face {
+                font-family: var(--font-family);
+                src: url("https://cdn.monday.com/fonts/monday_forms_6b1e87645a03ef1dcd74641095a0a3c5.eot");
+                src: url("https://cdn.monday.com/fonts/monday_forms_6b1e87645a03ef1dcd74641095a0a3c5.eot?#iefix") format("embedded-opentype"), url("https://cdn.monday.com/fonts/monday_forms_6b1e87645a03ef1dcd74641095a0a3c5.woff") format("woff"), url("https://cdn.monday.com/fonts/monday_forms_6b1e87645a03ef1dcd74641095a0a3c5.ttf") format("truetype"), url("https://cdn.monday.com/fonts/monday_forms_6b1e87645a03ef1dcd74641095a0a3c5.svg#monday_forms") format("svg");
+                font-weight: normal;
+                font-style: normal;
+            }
+
+            @media screen and (-webkit-min-device-pixel-ratio: 0) {
+                @font-face {
+                    font-family: var(--font-family);
+                    src: url("https://cdn.monday.com/fonts/monday_forms_6b1e87645a03ef1dcd74641095a0a3c5.svg#monday_forms") format("svg");
+                }
+            }
+        </style>
+        <div id="forms-component"></div>
+        <script>
+            window.bundles_urls = window.bundles_urls || {};
+            window.bundles_urls["forms"] = "https://cdn.monday.com/build/forms-93d16cf7380c52f1d806.js";
+        </script>
+        <script crossorigin src="https://cdn.monday.com/build/forms-93d16cf7380c52f1d806.js" type="text/javascript"></script>
+        <link rel="stylesheet" media="all" href="https://cdn.monday.com/assets/pulse/form-1a313f2fc3a2cb35f6df657e8fbb582463e836613ae6230b2ad9fc1b26c6588d.css"/>
+        <script>
+            try {
+                var formBbDatrExteneded = {};
+                Object.keys(window.formBBData).forEach(function(k) {
+                    formBbDatrExteneded[k] = window.formBBData[k];
+                });
+                formBbDatrExteneded.kind = 'form';
+                BigBrain("track", "page_view", formBbDatrExteneded);
+            } catch (err) {
+                console.log('error in bigbrain form page_view event track: ');
+                console.log(err);
+            }
+        </script>
+        <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"8ac13270b8e7158a","serverTiming":{"name":{"cfL4":true}},"version":"2024.7.0","token":"ef3b38c2289c47fa9034fc63ed8ed581"}' crossorigin="anonymous"></script>
+    </body>
+</html>
